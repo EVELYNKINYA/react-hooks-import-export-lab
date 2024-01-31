@@ -1,4 +1,5 @@
 import React from "react";
+import { username, city, image } from '../data/user'; // Corrected import statement
 
 function Home() {
   return (
@@ -6,6 +7,10 @@ function Home() {
       <h1>
         {username} is a Web Developer from {city}
       </h1>
+      <img src={image} alt="Owner" />
     </div>
   );
 }
+
+export default Home;
+

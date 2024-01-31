@@ -40,7 +40,7 @@ After you've exported them, import them in the following files:
 - Import the `username` and `city` variables in the `src/components/Home.js`
   file
 - Import the `image` variable in the `src/components/About.js` file
-
+ 
 When importing, make sure to use the _relative path_ from the file you're
 currently in, to the file you're trying to import from. For example, if you are
 in the `src/components/About.js` file and want to import from the
